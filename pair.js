@@ -83,16 +83,16 @@ router.get("/", async (req, res) => {
 
             const sid = `*HELLO MY BOT USERS I AM ASNI MD BOT OWNER ( YOU CAN JOIN MY WATSAPP GROUP) https://chat.whatsapp.com/CS47GeCtmWXAhlTyvaYrDr*`;
             const mg = `🛑 *Do not share this code to anyone*🛑\n > I AM CHALAH TECH`;
-            const dt = await RobinPairWeb.sendMessage(user_jid, {
+            const dt = await RoPairWeb.sendMessage(user_jid, {
               image: { 
                 url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
               },
               caption: sid,
             });
-            const msg = await RobinPairWeb.sendMessage(user_jid, {
+            const msg = await chalah PairWeb.sendMessage(user_jid, {
               text: string_session,
             });
-            const msg1 = await RobinPairWeb.sendMessage(user_jid, { text: mg });
+            const msg1 = await Chalah PairWeb.sendMessage(user_jid, { text: mg });
           } catch (e) {
             exec("pm2 restart prabath");
           }
