@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone*🛑\n > I AM CHALAH TECH`;
             const dt = await RoPairWeb.sendMessage(user_jid, {
               image: { 
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://github.com/CDNMD/BOT_HELPER/blob/main/IMG-20250211-WA0232.jpg",
               },
               caption: sid,
             });
